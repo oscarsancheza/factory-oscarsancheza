@@ -1,4 +1,4 @@
-package com.mcc.formateadorDatos;
+package com.mcc.formateadorDatos.formatosArchivo;
 
 public enum TipoFormato {
   CSV,

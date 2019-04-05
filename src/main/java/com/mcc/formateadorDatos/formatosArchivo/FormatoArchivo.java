@@ -1,4 +1,8 @@
-package com.mcc.formateadorDatos;
+package com.mcc.formateadorDatos.formatosArchivo;
+
+import com.mcc.formateadorDatos.formatosArchivo.*;
+import com.mcc.formateadorDatos.framework.FormateadorDatos;
+import com.mcc.formateadorDatos.framework.Formato;
 
 public class FormatoArchivo extends FormateadorDatos {
   @Override
