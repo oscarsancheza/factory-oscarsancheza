@@ -1,4 +1,6 @@
-package com.mcc.formateadorDatos;
+package com.mcc.formateadorDatos.formatosArchivo;
+
+import com.mcc.formateadorDatos.framework.Formato;
 
 public class FormatoTxt extends Formato {
 
@@ -7,5 +9,5 @@ public class FormatoTxt extends Formato {
   }
 
   @Override
-  public void crear() {}
+  public void generar() {}
 }

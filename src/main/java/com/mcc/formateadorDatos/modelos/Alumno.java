@@ -1,4 +1,4 @@
-package com.mcc.formateadorDatos;
+package com.mcc.formateadorDatos.modelos;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -14,7 +14,7 @@ public class Alumno {
   private String carrera;
   private int semestre;
 
-  private static List<Alumno> getAlumnos() {
+  public static List<Alumno> getAlumnos() {
     List<Alumno> alumnos = new ArrayList<>();
 
     Alumno alumnoOscar = new Alumno();
@@ -48,14 +48,14 @@ public class Alumno {
     alumnoEfrain.setSemestre(2);
 
     Alumno alumnoJose = new Alumno();
-    alumnoEfrain.setNoDeControl("M018170808");
-    alumnoEfrain.setNombre("JOSE ALFREDO");
-    alumnoEfrain.setApellidoPaterno("VALENZUELA");
-    alumnoEfrain.setApellidoMaterno("BELTRAN");
-    alumnoEfrain.setEdad(24);
-    alumnoEfrain.setSexo("M");
-    alumnoEfrain.setCarrera("MCC");
-    alumnoEfrain.setSemestre(2);
+    alumnoJose.setNoDeControl("M018170808");
+    alumnoJose.setNombre("JOSE ALFREDO");
+    alumnoJose.setApellidoPaterno("VALENZUELA");
+    alumnoJose.setApellidoMaterno("BELTRAN");
+    alumnoJose.setEdad(24);
+    alumnoJose.setSexo("M");
+    alumnoJose.setCarrera("MCC");
+    alumnoJose.setSemestre(2);
 
     Alumno alumnoUlises = new Alumno();
     alumnoUlises.setNoDeControl("M09170930");
@@ -68,14 +68,14 @@ public class Alumno {
     alumnoUlises.setSemestre(2);
 
     Alumno alumnoNancy = new Alumno();
-    alumnoUlises.setNoDeControl("M010170914");
-    alumnoUlises.setNombre("NANCY AHIDE");
-    alumnoUlises.setApellidoPaterno("CRUZ");
-    alumnoUlises.setApellidoMaterno("GASTELUM");
-    alumnoUlises.setEdad(27);
-    alumnoUlises.setSexo("F");
-    alumnoUlises.setCarrera("MCC");
-    alumnoUlises.setSemestre(2);
+    alumnoNancy.setNoDeControl("M010170914");
+    alumnoNancy.setNombre("NANCY AHIDE");
+    alumnoNancy.setApellidoPaterno("CRUZ");
+    alumnoNancy.setApellidoMaterno("GASTELUM");
+    alumnoNancy.setEdad(27);
+    alumnoNancy.setSexo("F");
+    alumnoNancy.setCarrera("MCC");
+    alumnoNancy.setSemestre(2);
 
     alumnos.add(alumnoOscar);
     alumnos.add(alumnoEfrain);

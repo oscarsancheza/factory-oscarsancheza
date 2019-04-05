@@ -1,4 +1,6 @@
-package com.mcc.formateadorDatos;
+package com.mcc.formateadorDatos.formatosArchivo;
+
+import com.mcc.formateadorDatos.framework.Formato;
 
 public class FormatoCsv extends Formato {
 
@@ -7,7 +9,7 @@ public class FormatoCsv extends Formato {
   }
 
   @Override
-  public void crear() {
+  public void generar() {
 
   }
 }
