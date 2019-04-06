@@ -9,7 +9,7 @@ public class FormateadorDatosApplication {
 
   public static void main(String[] args) {
     FormateadorDatos formateadorDatos = new FormatoArchivo();
-    Formato formato = formateadorDatos.formatearDatos(TipoFormato.TXT, "alumnos");
+    Formato formato = formateadorDatos.formatearDatos(TipoFormato.XML, "alumnos");
     System.out.println("Nombre archivo con formato:" + formato.getNombreArchivo());
   }
 }

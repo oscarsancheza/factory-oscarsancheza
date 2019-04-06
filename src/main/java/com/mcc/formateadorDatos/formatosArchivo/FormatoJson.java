@@ -1,8 +1,8 @@
 package com.mcc.formateadorDatos.formatosArchivo;
 
 import com.google.gson.Gson;
-import com.mcc.formateadorDatos.modelos.Alumno;
 import com.mcc.formateadorDatos.framework.Formato;
+import com.mcc.formateadorDatos.modelos.Alumno;
 
 import java.io.IOException;
 import java.util.List;
@@ -17,9 +17,13 @@ public class FormatoJson extends Formato {
   }
 
   @Override
-  public void generar() throws IOException {
+  public void generar() {
     List<Alumno> alumnos = Alumno.getAlumnos();
     String data = gson.toJson(alumnos);
-    this.guardarArchivo(data);
+    try {
+      this.guardarArchivo(data);
+    } catch (IOException e) {
+      System.out.println("Ha ocurrido un error al guardar el archivo," + e.toString());
+    }
   }
 }
