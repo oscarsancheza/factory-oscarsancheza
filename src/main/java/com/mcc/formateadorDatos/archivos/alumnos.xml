@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Alumnos>
+    <Alumno>
+        <apellidoMaterno>ALVARADO</apellidoMaterno>
+        <apellidoPaterno>SANCHEZ</apellidoPaterno>
+        <carrera>MCC</carrera>
+        <edad>25</edad>
+        <noDeControl>M18170813</noDeControl>
+        <nombre>OSCAR OMAR</nombre>
+        <semestre>2</semestre>
+        <sexo>M</sexo>
+    </Alumno>
+    <Alumno>
+        <apellidoMaterno>GONZALEZ</apellidoMaterno>
+        <apellidoPaterno>CUADRAS</apellidoPaterno>
+        <carrera>MCC</carrera>
+        <edad>28</edad>
+        <noDeControl>M08170327</noDeControl>
+        <nombre>EFRAIN</nombre>
+        <semestre>2</semestre>
+        <sexo>M</sexo>
+    </Alumno>
+    <Alumno>
+        <apellidoMaterno>BELTRAN</apellidoMaterno>
+        <apellidoPaterno>VALENZUELA</apellidoPaterno>
+        <carrera>MCC</carrera>
+        <edad>24</edad>
+        <noDeControl>M018170808</noDeControl>
+        <nombre>JOSE ALFREDO</nombre>
+        <semestre>2</semestre>
+        <sexo>M</sexo>
+    </Alumno>
+    <Alumno>
+        <apellidoMaterno>PARTIDA</apellidoMaterno>
+        <apellidoPaterno>VALENZUELA</apellidoPaterno>
+        <carrera>MCC</carrera>
+        <edad>23</edad>
+        <noDeControl>M13170367</noDeControl>
+        <nombre>MARIO</nombre>
+        <semestre>2</semestre>
+        <sexo>M</sexo>
+    </Alumno>
+    <Alumno>
+        <apellidoMaterno>RUBIO</apellidoMaterno>
+        <apellidoPaterno>CABRERA</apellidoPaterno>
+        <carrera>MCC</carrera>
+        <edad>27</edad>
+        <noDeControl>M09170930</noDeControl>
+        <nombre>ULISES URIEL</nombre>
+        <semestre>2</semestre>
+        <sexo>M</sexo>
+    </Alumno>
+    <Alumno>
+        <apellidoMaterno>GASTELUM</apellidoMaterno>
+        <apellidoPaterno>CRUZ</apellidoPaterno>
+        <carrera>MCC</carrera>
+        <edad>27</edad>
+        <noDeControl>M010170914</noDeControl>
+        <nombre>NANCY AHIDE</nombre>
+        <semestre>2</semestre>
+        <sexo>F</sexo>
+    </Alumno>
+</Alumnos>
