@@ -23,7 +23,7 @@ public abstract class Formato {
     }
   }
 
-  public abstract void generar() throws IOException;
+  public abstract void generar();
 
   public String getNombreArchivo() {
     return nombreArchivo;

@@ -14,7 +14,7 @@ public class FormatoCsv extends Formato {
   }
 
   @Override
-  public void generar() throws IOException {
+  public void generar() {
 
     List<Alumno> alumnos = Alumno.getAlumnos();
     StringBuilder datos = new StringBuilder();
@@ -50,6 +50,10 @@ public class FormatoCsv extends Formato {
       }
     }
 
-    this.guardarArchivo(datos.toString());
+    try {
+      this.guardarArchivo(datos.toString());
+    } catch (IOException e) {
+      System.out.println("Ha ocurrido un error al guardar el archivo," + e.toString());
+    }
   }
 }

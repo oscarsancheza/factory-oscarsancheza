@@ -2,6 +2,7 @@ package com.mcc.formateadorDatos.framework;
 
 import com.mcc.formateadorDatos.formatosArchivo.TipoFormato;
 
+import javax.xml.bind.JAXBException;
 import java.io.IOException;
 
 public abstract class FormateadorDatos {
@@ -12,11 +13,7 @@ public abstract class FormateadorDatos {
     Formato formato;
 
     formato = crearFormato(tipoFormato, nombreArchivo);
-    try {
-      formato.generar();
-    } catch (IOException e) {
-      System.out.println("Ha ocurrido un error al guardar el archivo," + e.toString());
-    }
+    formato.generar();
 
     return formato;
   }

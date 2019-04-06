@@ -1,5 +1,6 @@
 package com.mcc.formateadorDatos.modelos;
 
+import javax.xml.bind.annotation.XmlElement;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -87,6 +88,7 @@ public class Alumno {
     return alumnos;
   }
 
+  @XmlElement
   public String getNoDeControl() {
     return noDeControl;
   }
@@ -95,6 +97,7 @@ public class Alumno {
     this.noDeControl = noDeControl;
   }
 
+  @XmlElement
   public String getNombre() {
     return nombre;
   }
@@ -103,6 +106,7 @@ public class Alumno {
     this.nombre = nombre;
   }
 
+  @XmlElement
   public String getApellidoPaterno() {
     return apellidoPaterno;
   }
@@ -111,6 +115,7 @@ public class Alumno {
     this.apellidoPaterno = apellidoPaterno;
   }
 
+  @XmlElement
   public String getApellidoMaterno() {
     return apellidoMaterno;
   }
@@ -119,6 +124,7 @@ public class Alumno {
     this.apellidoMaterno = apellidoMaterno;
   }
 
+  @XmlElement
   public int getEdad() {
     return edad;
   }
@@ -127,6 +133,7 @@ public class Alumno {
     this.edad = edad;
   }
 
+  @XmlElement
   public String getSexo() {
     return sexo;
   }
@@ -135,6 +142,7 @@ public class Alumno {
     this.sexo = sexo;
   }
 
+  @XmlElement
   public String getCarrera() {
     return carrera;
   }
@@ -143,6 +151,7 @@ public class Alumno {
     this.carrera = carrera;
   }
 
+  @XmlElement
   public int getSemestre() {
     return semestre;
   }
